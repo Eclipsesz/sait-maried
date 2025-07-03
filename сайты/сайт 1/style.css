@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+p{
+    color: black;
+    /* font-family: ; */
+}
+
+.hedder {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    height: 50px;
+    padding: 0 10px; 
+    box-sizing: border-box; 
+}
+
+.date {
+    position: absolute;
+    left: 100px;
+}
+
+.menuShell {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu_1, .menu_2, .menu_3 {
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 50%;
+}
